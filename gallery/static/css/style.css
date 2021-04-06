@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.image-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.image {
+    width: 30%;
+    margin: 20px;
+    box-shadow: 0 4px 6px -5px black;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    text-align: center;
+    height: 450px;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.image img {
+    width: 100%;
+    height: 60%;
+}
+
+.image h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.image p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
